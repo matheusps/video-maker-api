@@ -1,0 +1,22 @@
+{
+  "name": "video-maker-api",
+  "author": "matheusps",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "graphql-yoga": "^1.17.1",
+    "jsonwebtoken": "^8.4.0",
+    "prisma-client-lib": "^1.25.6"
+  }
+}

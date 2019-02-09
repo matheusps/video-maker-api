@@ -1,0 +1,1 @@
+export const APP_SECRET = 'v1d30-m4k3r-**@#$^&$**-v3ry-h4rd-S3cR3t'
